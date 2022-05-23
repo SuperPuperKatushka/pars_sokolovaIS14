@@ -5,7 +5,7 @@ from object import Phone
 
 class Database:
     def __init__(self):
-        self.con = mysql.connector.connect(host='gendalf.cf', port=3308, user='root', password='1234567890', database='zhelyak')
+        self.con = mysql.connector.connect(host='gendalf.cf', port=3308, user='root', password='1234567890', database='Sokolova')
         self.cur = self.con.cursor()
 
     def upload_phone(self, phone: Phone):
